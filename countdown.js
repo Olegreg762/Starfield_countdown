@@ -8,12 +8,12 @@ function update_countdown(){
 
     if(until_release <= 0){
         clearInterval(countdown)
-        $("#container").text("STARFIELD RELEASED!!")
+        $("#container").text("STARFIELD HAS BEEN RELEASED!!")
         return;
     }
 
-    $(days).text(Math.floor(until_release / (1000 * 60 * 60 * 24)));
-    $(hours).text(Math.floor(until_release % (1000 * 60 * 60 * 24) / (1000 * 60 * 60)));
-    $(minutes).text(Math.floor(until_release % (1000 * 60 * 60) / (1000 * 60)))
-    $(seconds).text(Math.floor(until_release % (1000 * 60) / 1000))
+    $(days).text(Math.floor(until_release / (1000 * 60 * 60 * 24)) + " Days");
+    $(hours).text(Math.floor(until_release % (1000 * 60 * 60 * 24) / (1000 * 60 * 60)) + " Hours");
+    $(minutes).text(Math.floor(until_release % (1000 * 60 * 60) / (1000 * 60)) + " Minutes")
+    $(seconds).text(Math.floor(until_release % (1000 * 60) / 1000) + " Seconds")
 };
