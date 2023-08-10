@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    background-image: url("https://cdn.vox-cdn.com/thumbor/uejlc3mwVnVd4Tm_5_YIvCLAChE=/0x0:1920x1080/1200x628/filters:focal(960x540:961x541)/cdn.vox-cdn.com/uploads/chorus_asset/file/23622738/Xyph6dvBi9oydZYwPdcP4C.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 300px; 
+    text-align: center;
+    padding: 2rem;
+}
+.header-title{
+    text-shadow: 1px 1px 0 #0c0d0d,-1px 1px 0 #0c0d0d,1px -1px 0 #0c0d0d,-1px -1px 0 #0c0d0d;
+    margin-top: 60px;
+}
