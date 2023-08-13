@@ -1,4 +1,4 @@
-const release_date = new Date(2023, 8, 6, 23, 0, 0).getTime();
+const release_date = new Date(2023, 8, 6, 0, 0, 0).getTime();
 
 const countdown = setInterval(update_countdown, 1000)
 
